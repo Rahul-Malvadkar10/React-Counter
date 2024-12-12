@@ -1,6 +1,12 @@
 # React-Counter #
 A simple React application to demonstrate state management and event handling. This app allows users to increment or decrement a counter.
 
+*Live Demo
+
+You can view the live demo of the project here
+   https://react-counter-three-swart.vercel.app/
+
+
 ![counter app img](https://github.com/user-attachments/assets/96b35db8-9bff-4237-afa2-aef2c90dcaea)
 
 
