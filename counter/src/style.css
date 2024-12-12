@@ -1,0 +1,61 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;  /* Background color */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: black;  /* Heading color */
+  }
+  
+  h2 {
+    font-size: 3rem;
+    color: darkgray;  /* Counter number color */
+    margin-bottom: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for Increment Button */
+  button.increment {
+    background-color: green;  /* Green color */
+    color: white;
+  }
+  
+  button.increment:hover {
+    background-color: darkgreen;  /* Dark green color on hover */
+  }
+  
+  /* Styling for Decrement Button */
+  button.decrement {
+    background-color: red;  /* Red color */
+    color: white;
+  }
+  
+  button.decrement:hover {
+    background-color: darkred;  /* Dark red color on hover */
+  }
+  
+  /* Styling for Reset Button */
+  button.reset {
+    background-color: blue;  /* Blue color */
+    color: white;
+  }
+  
+  button.reset:hover {
+    background-color: darkblue;  /* Dark blue color on hover */
+  }
+  
